@@ -3,11 +3,11 @@ class MarkdownFinder < Formula
     homepage "https://github.com/kugarocks/markdown-finder"
   
     if Hardware::CPU.arm?
-      url "https://github.com/kugarocks/markdown-finder/releases/download/v1.0.0/mdf_1.0.0_darwin_arm64.zip"
-      sha256 "79428bf2fd27bf9be9df3bee27ec143ae30992208afd61d1eae514a467080cf0"
+      url "https://github.com/kugarocks/markdown-finder/releases/download/v2.0.0/mdf_2.0.0_darwin_arm64.zip"
+      sha256 "ecaaa97fd036cc184f66d8cb9fb7c76fe4ff098baca822b3071dfec4e2f8403f"
     else
-      url "https://github.com/kugarocks/markdown-finder/releases/download/v1.0.0/mdf_1.0.0_darwin_amd64.zip"
-      sha256 "61fd41e66e2df63d243b30293f0ca95b18236edc3e44822f96ff74263c3386e5"
+      url "https://github.com/kugarocks/markdown-finder/releases/download/v2.0.0/mdf_2.0.0_darwin_amd64.zip"
+      sha256 "0e69e0d97c0df7a1fb3e45188cb9d5333a880aad77938be0f006130f0fc04de1"
     end
   
     def install
