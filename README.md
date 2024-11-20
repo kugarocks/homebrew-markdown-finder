@@ -1,4 +1,4 @@
-# Markdown Finder Homebrew Formula
+# Homebrew Markdown Finder
 
 Install:
 
