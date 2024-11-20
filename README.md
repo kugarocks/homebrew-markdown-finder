@@ -14,6 +14,9 @@ Reinstall:
 
 ```bash
 brew cleanup markdown-finder
+```
+
+```bash
 brew reinstall markdown-finder
 ```
 
